@@ -1,0 +1,42 @@
+@charset "UTF-8";
+#wrap {
+  width: 100%;
+}
+#wrap #skip {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#wrap #skip li {
+  width: 100%;
+  font-size: 0;
+}
+#wrap #skip li a {
+  display: block;
+  width: 100%;
+  line-height: 0;
+  font-size: 0;
+  color: #ffffff;
+  background: #000;
+  text-align: center;
+}
+#wrap #skip li a:focus {
+  line-height: 50px;
+  font-size: 20px;
+}
+
+/* #skip li {width: 100%; font-size: 0; */ /* 기본값 글자 크기가 있어서 글자가 없어도 기본크기 잡힘 그래서 0 */
+/* #skip li a {
+  display: block;
+  width: 100%;
+  line-height: 0px;
+  font-size: 0px;
+  color: #ffffff;
+  background: #000;
+}
+#skip li a:focus {
+  line-height: 50px;
+  font-size: 20px;
+} */
